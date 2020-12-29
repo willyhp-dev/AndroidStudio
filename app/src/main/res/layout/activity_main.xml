@@ -47,16 +47,17 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Username"
+            android:hint="Nomor Handphone"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="password"
+            android:hint="sandi"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
+            android:inputType="textPassword"
             />
     </LinearLayout>
     <RelativeLayout
@@ -78,16 +79,17 @@
             android:layout_width="150dp"
             android:layout_height="25dp"
             android:text="Belum Punya akun?"
-            android:layout_marginRight="100dp"
+            android:layout_marginRight="80dp"
             android:layout_alignParentRight="true"
+
             />
         <TextView
             android:layout_width="100dp"
             android:layout_height="25dp"
-            android:text="Lupa sandi?"
+            android:text="Sign up"
             android:textStyle="bold"
             android:layout_marginLeft="25dp"
-            android:layout_marginRight="25dp"
+
             android:layout_alignParentRight="true"
             />
     </RelativeLayout>
